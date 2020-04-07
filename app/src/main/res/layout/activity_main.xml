@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/satu"
+    tools:context=".MainActivity">
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/tmblMulai"
+        android:layout_width="335dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="650dp"
+        android:onClick="mulai"
+        tools:ignore="OnClick" />
+
+</RelativeLayout>
